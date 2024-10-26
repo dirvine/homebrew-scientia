@@ -12,7 +12,7 @@ class Scientia < Formula
   depends_on "tesseract"  # For OCR support
   depends_on "poppler"    # For PDF processing
   depends_on "pkg-config" # Build dependency
-  depends_on "chromadb"   # Vector store
+  depends_on "chroma"   # Vector store
 
   resource "transformers" do
     url "https://files.pythonhosted.org/packages/transformers/transformers-4.36.0.tar.gz"
